@@ -58,12 +58,12 @@ login:
     action: index
     internal_slug: login
 
-signup:
-  url:   /signup
+sign_up:
+  url:   /sign-up
   param:
     module: default
     action: index
-    internal_slug: signup
+    internal_slug: sign-up
 
 # generic rules
 # please, remove them by adding more specific rules

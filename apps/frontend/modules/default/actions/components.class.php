@@ -6,8 +6,8 @@ class defaultComponents extends sfComponents
   {
     $this->userMenu = new ioMenu();
   
-    $this->userMenu->addChild('login', '@login');
-    $this->userMenu->addChild('sign up', '@signup');
+    $this->userMenu->addChild('log in', '@login');
+    $this->userMenu->addChild('sign up', '@sign_up');
   
     $this->menu = new ioMenu();
     

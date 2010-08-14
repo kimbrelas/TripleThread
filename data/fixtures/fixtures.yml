@@ -1,37 +1,37 @@
 ttBasicPage:
   home:
     title: 'home'
-    body: 'content'
-    internal_slug: home
+    body: 'home page content'
+    internal_slug: 'home'
   about:
     title: 'about'
-    body: 'content'
-    internal_slug: about
+    body: 'about page content'
+    internal_slug: 'about'
   blog:
     title: 'blog'
-    body: 'content'
-    internal_slug: blog
+    body: 'blog page content'
+    internal_slug: 'blog'
   products:
     title: 'products'
-    body: 'content'
-    internal_slug: products
+    body: 'products page content'
+    internal_slug: 'products'
   pricing:
     title: 'pricing'
-    body: 'content'
-    internal_slug: pricing
+    body: 'pricing page content'
+    internal_slug: 'pricing'
   design:
     title: 'design'
-    body: 'content'
-    internal_slug: design
+    body: 'design page content'
+    internal_slug: 'design'
   start_order:
     title: 'start order'
-    body: 'content'
-    internal_slug: start-order
+    body: 'start order page content'
+    internal_slug: 'start-order'
   login:
-    title: 'login'
-    body: 'content'
-    internal_slug: login
-  signup:
-    title: 'signup'
-    body: 'content'
-    internal_slug: signup
+    title: 'log in'
+    body: 'log in page content'
+    internal_slug: 'login'
+  sign_up:
+    title: 'sign up'
+    body: 'sign up page content'
+    internal_slug: 'sign-up'
