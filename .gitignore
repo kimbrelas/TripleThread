@@ -1,0 +1,8 @@
+config/databases.yml
+cache/
+log/
+base
+/web/media/*
+.DS_Store
+data/sql
+web/uploads
