@@ -1,0 +1,8 @@
+ttPage:
+  inheritance:
+    extends:  ioPage
+    type:     column_aggregation
+    keyField: type
+    keyValue: basic
+  columns:
+    internal_slug: string(255)

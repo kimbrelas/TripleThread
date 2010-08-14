@@ -1,0 +1,75 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+home:
+  url:   /
+  param:
+    module: default
+    action: index
+    internal_slug: home
+
+about:
+  url:   /about
+  param:
+    module: default
+    action: index
+    internal_slug: about
+    
+blog:
+  url:   /blog
+  param:
+    module: default
+    action: index
+    internal_slug: blog
+  
+products:
+  url:   /products
+  param:
+    module: default
+    action: index
+    internal_slug: products
+
+pricing:
+  url:   /pricing
+  param:
+    module: default
+    action: index
+    internal_slug: pricing
+
+design:
+  url:   /design
+  param:
+    module: default
+    action: index
+    internal_slug: design
+
+start_order:
+  url:   /start-order
+  param:
+    module: default
+    action: index
+    internal_slug: start-order
+
+login:
+  url:   /login
+  param:
+    module: default
+    action: index
+    internal_slug: login
+
+signup:
+  url:   /signup
+  param:
+    module: default
+    action: index
+    internal_slug: signup
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -4,3 +4,12 @@
 [submodule "lib/vendor/magento"]
 	path = lib/vendor/magento
 	url = git://github.com/magentomirror/magento-mirror.git
+[submodule "plugins/ioPagePlugin"]
+	path = plugins/ioPagePlugin
+	url = git://github.com/iostudio/ioPagePlugin.git
+[submodule "plugins/ioMenuPlugin"]
+	path = plugins/ioMenuPlugin
+	url = git://github.com/weaverryan/ioMenuPlugin.git
+[submodule "plugins/sfDoctrineGuardPlugin"]
+	path = plugins/sfDoctrineGuardPlugin
+	url = git://github.com/annismckenzie/sfDoctrineGuardPlugin.git
