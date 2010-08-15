@@ -12,4 +12,5 @@
  */
 class ttPage extends BasettPage
 {
+
 }

@@ -2,7 +2,7 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
-home:
+homepage:
   url:   /
   param:
     module: default
@@ -54,9 +54,14 @@ start_order:
 login:
   url:   /login
   param:
-    module: default
-    action: index
-    internal_slug: login
+    module: sfGuardAuth
+    action: signin
+
+logout:
+  url:   /logout
+  param:
+    module: sfGuardAuth
+    action: signout
 
 sign_up:
   url:   /sign-up

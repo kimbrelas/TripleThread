@@ -1,5 +1,3 @@
-<h1><?php echo $page->title ?></h1>
+<?php echo editable_content_tag('h1', $page, 'title', array('mode' => 'inline')) ?>
 
-<span><?php echo $page->body ?></span>
-
-<img id="under-construction" src="/images/uc.png" />
+<?php echo editable_content_tag('span', $page, 'body', array('mode' => 'inline')) ?>

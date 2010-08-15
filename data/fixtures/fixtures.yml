@@ -1,37 +1,37 @@
-ttBasicPage:
+ttPage:
   home:
     title: 'home'
-    body: 'home page content'
+    body: 'home page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'home'
   about:
     title: 'about'
-    body: 'about page content'
+    body: 'about page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'about'
   blog:
     title: 'blog'
-    body: 'blog page content'
+    body: 'blog page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'blog'
   products:
     title: 'products'
-    body: 'products page content'
+    body: 'products page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'products'
   pricing:
     title: 'pricing'
-    body: 'pricing page content'
+    body: 'pricing page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'pricing'
   design:
     title: 'design'
-    body: 'design page content'
+    body: 'design page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'design'
   start_order:
     title: 'start order'
-    body: 'start order page content'
+    body: 'start order page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'start-order'
   login:
     title: 'log in'
-    body: 'log in page content'
+    body: 'log in page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'login'
   sign_up:
     title: 'sign up'
-    body: 'sign up page content'
+    body: 'sign up page content <img id="under-construction" src="/images/uc.png" />'
     internal_slug: 'sign-up'

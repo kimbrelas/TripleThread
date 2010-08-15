@@ -1,0 +1,61 @@
+#io_page_toolbar {
+  background: #2d5199;
+  border: 1px solid #333;
+  border-bottom: 0;
+  bottom: 0;
+  left: 50%;
+  list-style: none;
+  margin-left: -475px;
+  position: fixed;
+  width: 950px;
+  z-index: 900;
+  padding: 3px 5px;
+
+  -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; -moz-border-radius-bottomleft: 0; -moz-border-radius-bottomright: 0;
+  -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0
+}
+
+#io_page_toolbar .inner {
+  font-weight: bold;
+  color: #fff;
+}
+
+#io_page_toolbar .inner a {
+  color: #fff;
+}
+
+#io_page_toolbar .inner .section {
+  float: left;
+  margin-right: 10px;
+}
+
+#io_page_toolbar .inner .toolbox_expanded {
+  height: 300px;
+  overflow: auto;
+  display: none;
+  border-top: 1px solid #333;
+}
+
+
+/* The metadata form */
+#io_page_toolbar .inner .toolbox_expanded .form_body {
+  font-size: .8em;
+}
+
+#io_page_toolbar .inner .toolbox_expanded .form_body ul.tabs {
+  margin: 5px 0;
+  display: block;
+}
+#io_page_toolbar .inner .toolbox_expanded .form_body ul.tabs a {
+  text-decoration: none;
+}
+#io_page_toolbar .inner .toolbox_expanded .form_body ul.tabs li {
+  display: block;
+  float: left;
+  padding: 5px;
+  border: 1px solid #333;
+  margin-right: 5px;
+}
+#io_page_toolbar .inner .toolbox_expanded .form_body ul.tabs li.active {
+  background: #333;
+}

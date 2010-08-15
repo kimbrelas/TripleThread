@@ -13,3 +13,6 @@
 [submodule "plugins/sfDoctrineGuardPlugin"]
 	path = plugins/sfDoctrineGuardPlugin
 	url = git://github.com/annismckenzie/sfDoctrineGuardPlugin.git
+[submodule "plugins/ioEditableContentPlugin"]
+	path = plugins/ioEditableContentPlugin
+	url = git://github.com/weaverryan/ioEditableContentPlugin.git

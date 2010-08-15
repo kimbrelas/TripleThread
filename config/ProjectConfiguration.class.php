@@ -7,6 +7,12 @@ class ProjectConfiguration extends sfProjectConfiguration
 {
   public function setup()
   {
-    $this->enablePlugins('sfDoctrinePlugin', 'ioPagePlugin', 'ioMenuPlugin');
+    $this->enablePlugins(
+      'sfDoctrinePlugin',
+      'ioPagePlugin',
+      'ioMenuPlugin',
+      'sfDoctrineGuardPlugin',
+      'ioEditableContentPlugin'
+    );
   }
 }
